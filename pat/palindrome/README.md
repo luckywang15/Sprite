@@ -25,7 +25,7 @@
             13: 'D', 14: 'E', 15: 'F'}
         while m > 0:
             a = m % n
-            m = int(m / n)
+            m = m // n
             s += tmp[a]
         s = s[::-1]
         return s
